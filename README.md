@@ -1,4 +1,4 @@
-# RealWowrldArduinoUsage
+# RealWorldArduinoUsage
 This is a project that represents a situation for which I was tasked. We have a test station that emits data on a Serial port. The data depends on the results of the tests being performed in a production environment. Successful components needed a label to be printed and affixed to them. 
 This problem represents the usage of seveeral well known and well worn Arduino samples. One for a 16X2 LCD, another for an inexpensive keypad. The LCD displays short messages and an employee clock number, while the keypad is used to enter said clock number.
 Naturally for dealing with Serial to Arduino date, I used a MAX3232. THe program for the Arduino Mega deployed for this project is merely an Arduino IDE project. While there are plenty of demos for all of those little devices we can attach to an Arduino, it's a bit of a challenge picking from samples to comprise a working program. This is a simple project that shows how. 
